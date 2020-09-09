@@ -1,1 +1,1 @@
-https://apotinvs.github.io/rsschool-cv/cv 
+https://apotinvs.github.io/rsschool-cv/
