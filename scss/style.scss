@@ -1,0 +1,55 @@
+a{
+display: block;
+}
+header, main{
+	width: 1024px;
+	margin-right: auto;
+	margin-left: auto;
+}
+main{
+	display: flex;
+	justify-content: center;
+	
+}
+.title {
+	text-align: center;
+	font-size: 36px;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	font-weight: bold;
+	color: #6c6e52;
+}
+.cv-photo {
+	border: 2px solid #e90f0f;
+	margin: 20px 12px 20px 12px;
+	& img{
+		width: 500px;		
+	}
+
+}
+.cv {
+	margin: 20px;
+	width: 500px;
+	margin: 20px 12px 20px 12px;
+	line-height: 20px;
+}
+.cv-title {
+	font-size: 24px;
+	margin-bottom: 10px;
+	color: #a0a554;
+	font-weight: bold;
+}
+.mail{
+	display: inline;
+}
+.cv-content {
+	font-size: 14px;
+	margin-bottom: 10px;
+	font-style: italic;
+}
+span{
+	text-decoration: line-through;	
+}
+
+//------Подключение файлов--------------------------------------
+@import "_nullstyle";
